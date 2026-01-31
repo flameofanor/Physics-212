@@ -23,5 +23,22 @@ a =
 deltaT =
 '''
 
-
 #problem variables
+a = 18.74 # N / (C * m ** 4)
+b = 5.07 # 
+n = 4
+
+def E(x):
+	return (a * (x ** n)) - b
+
+x1 = 0.55
+x2 = 2.03
+
+v1 = E(x1)
+v2 = E(x2)
+
+V_meter = v2 - v1  #volts per meter
+volts = V_meter * (x2 - x1)
+print(str(volts) + " volts")
+
+

@@ -25,3 +25,11 @@ deltaT =
 
 
 #problem variables
+x = 1.8 / 100
+V = 1.8 * 10 ** 4
+
+
+E = V / x
+print(str(E) + " newtons per coulomb")
+
+

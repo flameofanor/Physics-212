@@ -25,3 +25,15 @@ deltaT =
 
 
 #problem variables
+v1 = 21
+v2 = 169
+Vdif = v2 - v1
+#U = Vdif * elementary_charge
+print(Vdif) #yay!
+
+#part two, velocity of the electron
+velocity = sqrt((2 * elementary_charge * Vdif) / mass_electron)
+print(str(velocity) + " m/s") #hell yes
+
+
+
