@@ -27,14 +27,9 @@ deltaT =
 '''
 
 #problem variables
+r = 0.012 
+q = 5.5e-6
 
-E = 6600
-r1 = 0.5
-r2 = 1.1
-a = 5
-
-A = 4 * pi * r2 ** 2
-
-q = (E * A * E0) / 6
-print(q)
+v = k * q / r
+print(f"{(v):.7f}" + " v")
 

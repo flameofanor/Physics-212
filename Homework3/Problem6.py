@@ -27,14 +27,10 @@ deltaT =
 '''
 
 #problem variables
+rho = 155e-12 # coulombs / square meter
 
-E = 6600
-r1 = 0.5
-r2 = 1.1
-a = 5
+E1 = -1 * (rho) / E0
+print(abs(E1)) #magnitude is positive
 
-A = 4 * pi * r2 ** 2
 
-q = (E * A * E0) / 6
-print(q)
 

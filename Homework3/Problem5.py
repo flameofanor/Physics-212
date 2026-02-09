@@ -28,13 +28,9 @@ deltaT =
 
 #problem variables
 
-E = 6600
-r1 = 0.5
-r2 = 1.1
-a = 5
+R = 6.2 / 100
+rho = 0.35e-6
 
-A = 4 * pi * r2 ** 2
-
-q = (E * A * E0) / 6
-print(q)
+E = (rho * R) / (4 * E0)
+print(E) #yay first try!
 
