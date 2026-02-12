@@ -38,11 +38,18 @@ e1 = 0.5 * c1 * v1
 e2 = .5 * c2 * v2
 print(e1 == e2)
 
-q1 = c1 * v1
-d1 = k * c1
 
+q = c1 * v1
+print(q)
 
-q2 = c2 * v2
-d2 = k * c2
+VV = v2 / v1
+print(VV) #nice!
 
-print(q1 == q2)
+deltaE = 0.5 * q ** 2 * (1/c2 - 1/c1)
+print(deltaE) #ohhhh charge is constant but energy is not. I see
+
+#d1 = k * c1
+#q2 = c2 * v2
+#d2 = k * c2
+#print(d1)
+#print(d2)
