@@ -39,6 +39,25 @@ pF to F x * 1e-12
 
 
 #problem variables
+v = 12
+r1 = 0.75
+r2 = 4.75
+r3 = 11
 
+ra = (r2 * r3) / (r2 + r3)
+req = ra + r1
+#print(req)
 
+i = v / req
+#print(i)
 
+v1 = i * r1
+#print(v1)
+v2 = 12 - v1
+print(v2)
+
+p = v2 ** 2 / r3
+print(p)
+
+p_total = i * v
+print(p_total)

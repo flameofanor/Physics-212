@@ -40,5 +40,11 @@ pF to F x * 1e-12
 
 #problem variables
 
+q = 4
+t = 4 * 3600 # time in hours
+v = 2.5
 
+p = q / t * v
+
+print("P = " + f"{p:.7f}" + " watts")
 

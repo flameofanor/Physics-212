@@ -40,5 +40,25 @@ pF to F x * 1e-12
 
 #problem variables
 
+mass = 1650 # mass in kg of water
+deltaT = 30 # degrees celsius
+efficency = 0.75
+
+cost = 10.5 # cents / kWh
+
+c = 4184 # joules / kg * degree celsius
+
+joules = (mass * c * deltaT) / 0.75
+
+kwh = joules / (1000 * 3600)
+print(kwh)
+
+cents = kwh * cost
+
+dollars = cents / 100
+print("cost = $" + f"{dollars:.4f}") # correct! nice!
+
+i = joules / (3.6 * 3600 * 220)
+print("current = " + f"{i:.4f}" + " amps")
 
 

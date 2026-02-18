@@ -40,5 +40,14 @@ pF to F x * 1e-12
 
 #problem variables
 
+i = 3.9
+r = 36
 
+ra = 1 / (1/6 + 1/2 + 1/7)
+rb = ra * 15 / (ra + 15)
+rc = rb + 3 + 5
+rd = 2 * rc / (2 + rc)
+print(rd)
 
+v = i * r * rd
+print(v)

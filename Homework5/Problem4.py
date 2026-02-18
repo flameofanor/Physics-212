@@ -40,5 +40,19 @@ pF to F x * 1e-12
 
 #problem variables
 
+d = 1.291 * 1e-3 # meters diameter
+A = pi * (d / 2) ** 2 # cross sectional area of wire in m**2
+l = 17.75 # meters
+
+rho = 1.68e-8
+alpha = 3.9e-3
+
+r1 = rho * l / A
+print("r1 = " + f"{r1:.4f}" + " \u03A9")
+
+
+
+
+
 
 

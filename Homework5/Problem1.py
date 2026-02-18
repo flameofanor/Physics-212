@@ -40,5 +40,8 @@ pF to F x * 1e-12
 
 #problem variables
 
+i = 205
+q = 0.325e-3
 
-
+s = q / i
+print("seconds = " + f"{s * 1e6:.4f}" + " us")

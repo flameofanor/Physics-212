@@ -40,5 +40,10 @@ pF to F x * 1e-12
 
 #problem variables
 
+r = 140
+i = 29e-3
 
+v = i * r
+
+print("V = " + f"{v:.4f}" + " volts")
 
