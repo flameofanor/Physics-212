@@ -1,6 +1,6 @@
 import math
 from math import sin, cos, tan, asin, acos, atan
-from math import pow, sqrt, log
+from math import pow, sqrt
 from math import pi, e
 
 # f"{some_float:.4f}"
@@ -40,6 +40,13 @@ pF to F x * 1e-12
 
 
 #problem variables
+J = 3.5
+a = 0.75
+r = 0.5 * a
 
+B = (m0 * J * r) / 2
+print("For r=0.5a, B = " + f"{B:.9f}" + " Tesla")
 
-
+r = 2 * a
+B = (m0 * J * a**2) / (2 * r)
+print("For r=2a, B = " + f"{B:.9f}" + " Tesla")

@@ -41,5 +41,18 @@ pF to F x * 1e-12
 
 #problem variables
 
+r = 0.065
+I = 6.5
+Bi = m0 * I / (2 * pi * r)
+print(Bi * 1e6)
 
 
+Be = Bi / tan(pi / 6)
+print(Be * 1e6)
+
+I2 = 12
+Bi2 = m0 * I2 / (2 * pi * r)
+
+
+theta = atan(Bi2 / Be)
+print((theta / (2 * pi)) * 360)

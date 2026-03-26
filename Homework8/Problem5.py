@@ -41,5 +41,11 @@ pF to F x * 1e-12
 
 #problem variables
 
+I = 0.55
+c = 0.041
+a = 0.022
+b = 0.083
 
+phi = (m0 * b * I / (2 * pi)) * log((a + c) / c)
 
+print("phi = " + f"{phi * 1e9 * 10 ** (-9) :.12f}" + " T * m**2")

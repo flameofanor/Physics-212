@@ -1,6 +1,6 @@
 import math
 from math import sin, cos, tan, asin, acos, atan
-from math import pow, sqrt, log
+from math import pow, sqrt
 from math import pi, e
 
 # f"{some_float:.4f}"
@@ -41,5 +41,18 @@ pF to F x * 1e-12
 
 #problem variables
 
+R = 0.39e-3
+I = 7.5
 
+A = I / (pi * R ** 2 / 3)
+#print("A = " + f"{A:.0f}" + " Amps per Meter squared")
+
+
+iMax = A * pi * R**2 / 3
+#print("iMax = " + f"{iMax:.4f}" + " Amps")
+
+r = R * 0.74
+Bin = (m0 * I * r) * ( 3/2 - r/R )/(pi * R ** 2 )
+print("r = " + f"{r:.6f}" + " m")
+print("Bin = " + f"{Bin:.6f}")
 

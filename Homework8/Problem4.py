@@ -1,6 +1,6 @@
 import math
 from math import sin, cos, tan, asin, acos, atan
-from math import pow, sqrt, log
+from math import pow, sqrt
 from math import pi, e
 
 # f"{some_float:.4f}"
@@ -41,5 +41,8 @@ pF to F x * 1e-12
 
 #problem variables
 
+B = 10**4 * 4.75e-5
+n = 10000
 
+print(4.75e-5 / m0)
 
