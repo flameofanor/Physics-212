@@ -41,24 +41,5 @@ pF to F x * 1e-12
 
 #problem variables
 
-sol_turns = 550
-sol_length = 0.655
-n = sol_turns / sol_length
-
-R = 0.0481
-r = 0.0173
-turns = 31
-resistance = 3.06
-
-i_rise = 23.9
-t_run = 0.00198
-di_dt = i_rise / t_run
-
-db_dt = m0 * n * di_dt
-emf = -1 * turns * db_dt * pi * r ** 2
-print(emf)
-
-I = emf / resistance
-print(I) #YAAAAH BUDDY CORRECT! FIRST TRY!!!!
-
-
+E = 0.011 * 0.0044 ** 2 / (2 * 0.0068)
+print(E * 10)
