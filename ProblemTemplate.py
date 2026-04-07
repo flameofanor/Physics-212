@@ -5,7 +5,8 @@ from math import pi, e
 
 # f"{some_float:.4f}"
 # print("x = " + f"{x:.4f}" + " \u03A9")
-
+# Omega = \u03A9
+# Micro = \u00B5
 #remember that trig functions are all in radians
 
 #constants
