@@ -43,5 +43,15 @@ pF to F x * 1e-12
 
 #problem variables
 
+Nm = 1.8
+Na = 1
+x = 0.55
+theta = (37 / 360) * 2 * pi
 
+phi = asin((Na * sin(theta)) / Nm)
+A = x / cos(phi)
+alpha = theta - phi
+D = A * sin(alpha)
 
+print(A)
+print("D = " + f"{D:.4f}" + " m")

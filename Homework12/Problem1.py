@@ -43,5 +43,13 @@ pF to F x * 1e-12
 
 #problem variables
 
+t = 0.115e-9
 
+d = c * t / 2
+print(d)
+
+avg_moon = 3.84e8
+
+percent = (d/ avg_moon) * 100
+print("Percent Error: " + f"{percent:.15f}" + "%")
 
